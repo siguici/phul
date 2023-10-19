@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Skeleton;
+namespace Phul;
 
-final class Program
+final class Application
 {
     public static function main(): void
     {

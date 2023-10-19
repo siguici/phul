@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Skeleton\Test\Unit;
+namespace Phul\Tests\Unit;
 
-use Sikessem\Skeleton\Program;
+use Phul\Application;
 
 it('should output "Hello World!"', function () {
     ob_start();
-    Program::main();
+    Application::main();
     expect(ob_get_clean())->toEqual('Hello World!');
 });
